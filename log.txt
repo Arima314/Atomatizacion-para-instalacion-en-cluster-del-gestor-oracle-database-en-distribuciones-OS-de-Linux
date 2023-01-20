@@ -1,0 +1,718 @@
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[root@localhost Instalador]# ping 192.168.56.22
+PING 192.168.56.22 (192.168.56.22) 56(84) bytes of data.
+64 bytes from 192.168.56.22: icmp_seq=1 ttl=64 time=0.392 ms
+64 bytes from 192.168.56.22: icmp_seq=2 ttl=64 time=0.365 ms
+64 bytes from 192.168.56.22: icmp_seq=3 ttl=64 time=0.409 ms
+64 bytes from 192.168.56.22: icmp_seq=4 ttl=64 time=0.348 ms
+^C
+--- 192.168.56.22 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3242ms
+rtt min/avg/max/mdev = 0.348/0.378/0.409/0.030 ms
+[root@localhost Instalador]# ping 192.168.56.23
+PING 192.168.56.23 (192.168.56.23) 56(84) bytes of data.
+64 bytes from 192.168.56.23: icmp_seq=1 ttl=64 time=0.326 ms
+64 bytes from 192.168.56.23: icmp_seq=2 ttl=64 time=0.294 ms
+64 bytes from 192.168.56.23: icmp_seq=3 ttl=64 time=0.451 ms
+64 bytes from 192.168.56.23: icmp_seq=4 ttl=64 time=0.316 ms
+^C
+--- 192.168.56.23 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3091ms
+rtt min/avg/max/mdev = 0.294/0.346/0.451/0.065 ms
+[root@localhost Instalador]# ls
+IPs.txt                                  oracle-database-ee-21c-1.0-1.ol8.x86_64.rpm
+oracle-database-ee-19c-1.0-1.x86_64.rpm  Script.sh
+[root@localhost Instalador]# clear
+
+[root@localhost Instalador]# ls
+IPs.txt                                  oracle-database-ee-21c-1.0-1.ol8.x86_64.rpm
+oracle-database-ee-19c-1.0-1.x86_64.rpm  Script.sh
+[root@localhost Instalador]# bash Script.sh 
+
+Digite el nombre del archivo que contiene las IPs de los nodos (En el formato nombre.txt - debe estar en la ruta desde donde ejecuta este archivo.):
+ 
+Nombre del archivo: fghgh
+
+El nombre del archivo ingresado no existe en el sistema, intentelo de nuevo.
+
+
+Digite el nombre del archivo que contiene las IPs de los nodos (En el formato nombre.txt - debe estar en la ruta desde donde ejecuta este archivo.):
+ 
+Nombre del archivo: 53452
+
+El nombre del archivo ingresado no existe en el sistema, intentelo de nuevo.
+
+
+Digite el nombre del archivo que contiene las IPs de los nodos (En el formato nombre.txt - debe estar en la ruta desde donde ejecuta este archivo.):
+ 
+Nombre del archivo: IPs.txt
+
+Validando estado de los nodos...
+
+PING 192.168.56.22 (192.168.56.22) 56(84) bytes of data.
+64 bytes from 192.168.56.22: icmp_seq=1 ttl=64 time=0.305 ms
+64 bytes from 192.168.56.22: icmp_seq=2 ttl=64 time=0.371 ms
+
+--- 192.168.56.22 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.305/0.338/0.371/0.033 ms
+PING 192.168.56.23 (192.168.56.23) 56(84) bytes of data.
+64 bytes from 192.168.56.23: icmp_seq=1 ttl=64 time=0.532 ms
+64 bytes from 192.168.56.23: icmp_seq=2 ttl=64 time=0.318 ms
+
+--- 192.168.56.23 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1029ms
+rtt min/avg/max/mdev = 0.318/0.425/0.532/0.107 ms
+PING 192.168.1.31 (192.168.1.31) 56(84) bytes of data.
+From 192.168.1.32 icmp_seq=1 Destination Host Unreachable
+From 192.168.1.32 icmp_seq=2 Destination Host Unreachable
+
+--- 192.168.1.31 ping statistics ---
+2 packets transmitted, 0 received, +2 errors, 100% packet loss, time 1013ms
+pipe 2
+
+El estado de los nodos es:
+
+|     IP     |  Estado  |
+192.168.56.22 - UP
+192.168.56.23 - UP
+192.168.1.31 - DOWN
+
+Digite la opción para la versión de Oracle Database que desea instalar (1, 2 o 0):
+
+1. Oracle Database 21c
+2. Oracle Database 19c
+0. Cancelar proceso
+
+Su opción: ygjghj
+
+Opción no válida, intentelo de nuevo.
+
+
+Digite la opción para la versión de Oracle Database que desea instalar (1, 2 o 0):
+
+1. Oracle Database 21c
+2. Oracle Database 19c
+0. Cancelar proceso
+
+Su opción: 5434
+
+Opción no válida, intentelo de nuevo.
+
+
+Digite la opción para la versión de Oracle Database que desea instalar (1, 2 o 0):
+
+1. Oracle Database 21c
+2. Oracle Database 19c
+0. Cancelar proceso
+
+Su opción: 3
+
+Opción no válida, intentelo de nuevo.
+
+
+Digite la opción para la versión de Oracle Database que desea instalar (1, 2 o 0):
+
+1. Oracle Database 21c
+2. Oracle Database 19c
+0. Cancelar proceso
+
+Su opción: 0
+
+Deteniendo ejecución del proceso...
+
+[root@localhost Instalador]# bash Script.sh 
+
+Digite el nombre del archivo que contiene las IPs de los nodos (En el formato nombre.txt - debe estar en la ruta desde donde ejecuta este archivo.):
+ 
+Nombre del archivo: IPs.txt
+
+Validando estado de los nodos...
+
+PING 192.168.56.22 (192.168.56.22) 56(84) bytes of data.
+64 bytes from 192.168.56.22: icmp_seq=1 ttl=64 time=0.499 ms
+64 bytes from 192.168.56.22: icmp_seq=2 ttl=64 time=0.337 ms
+
+--- 192.168.56.22 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1056ms
+rtt min/avg/max/mdev = 0.337/0.418/0.499/0.081 ms
+PING 192.168.56.23 (192.168.56.23) 56(84) bytes of data.
+64 bytes from 192.168.56.23: icmp_seq=1 ttl=64 time=0.288 ms
+64 bytes from 192.168.56.23: icmp_seq=2 ttl=64 time=0.418 ms
+
+--- 192.168.56.23 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1036ms
+rtt min/avg/max/mdev = 0.288/0.353/0.418/0.065 ms
+PING 192.168.1.31 (192.168.1.31) 56(84) bytes of data.
+From 192.168.1.32 icmp_seq=1 Destination Host Unreachable
+From 192.168.1.32 icmp_seq=2 Destination Host Unreachable
+
+--- 192.168.1.31 ping statistics ---
+2 packets transmitted, 0 received, +2 errors, 100% packet loss, time 1011ms
+pipe 2
+
+El estado de los nodos es:
+
+|     IP     |  Estado  |
+192.168.56.22 - UP
+192.168.56.23 - UP
+192.168.1.31 - DOWN
+
+Digite la opción para la versión de Oracle Database que desea instalar (1, 2 o 0):
+
+1. Oracle Database 21c
+2. Oracle Database 19c
+0. Cancelar proceso
+
+Su opción: 2
+
+Conectado a nodo con IP 192.168.56.22...
+
+Ejecutable.sh                                        100% 6638     7.9MB/s   00:00    
+Version.txt                                          100%    2     3.6KB/s   00:00    
+IPMaster.txt                                         100%   13    19.6KB/s   00:00    
+Nodo.txt                                             100%   14    22.0KB/s   00:00    
+oracle-database-ee-19c-1.0-1.x86_64.rpm              100% 2570MB   2.2MB/s   19:18    
+
+El OS es fedora
+
+/usr/bin/rpm
+
+Existe rpm
+
+/usr/bin/dnf
+
+Existe dnf
+
+
+Instalando Oracle Database 19c...
+
+Última comprobación de caducidad de metadatos hecha hace 0:32:36, el dom 08 ene 2023 01:47:13 -05.
+oracle-database-preinstall-19c-1.0-1.el8.x86_64.rpm     54 kB/s |  24 kB     00:00    
+Dependencias resueltas.
+=======================================================================================
+ Paquete                Arq.   Versión                         Repositorio        Tam.
+=======================================================================================
+Instalando:
+ oracle-database-preinstall-19c
+                        x86_64 1.0-1.el8                       @commandline       24 k
+Instalando dependencias:
+ binutils               x86_64 2.30-117.0.3.el8                ol8_baseos_latest 5.9 M
+ glibc-devel            x86_64 2.28-151.0.1.el8                ol8_baseos_latest 1.0 M
+ ksh                    x86_64 20120801-257.0.1.el8            ol8_appstream     929 k
+ libICE                 x86_64 1.0.9-15.el8                    ol8_appstream      74 k
+ libSM                  x86_64 1.2.3-1.el8                     ol8_appstream      47 k
+ libXcomposite          x86_64 0.4.4-14.el8                    ol8_appstream      28 k
+ libXi                  x86_64 1.7.10-1.el8                    ol8_appstream      49 k
+ libXinerama            x86_64 1.1.4-1.el8                     ol8_appstream      15 k
+ libXmu                 x86_64 1.1.3-1.el8                     ol8_appstream      75 k
+ libXrandr              x86_64 1.5.2-1.el8                     ol8_appstream      34 k
+ libXt                  x86_64 1.1.5-12.el8                    ol8_appstream     185 k
+ libXtst                x86_64 1.2.3-7.el8                     ol8_appstream      22 k
+ libXxf86dga            x86_64 1.1.5-1.el8                     ol8_appstream      26 k
+ libXxf86misc           x86_64 1.0.4-1.el8                     ol8_appstream      23 k
+ libaio-devel           x86_64 0.3.112-1.el8                   ol8_baseos_latest  19 k
+ libdmx                 x86_64 1.1.4-3.el8                     ol8_appstream      22 k
+ libnsl                 x86_64 2.28-151.0.1.el8                ol8_baseos_latest 102 k
+ libstdc++-devel        x86_64 8.4.1-1.0.1.el8                 ol8_appstream     2.1 M
+ libxcrypt-devel        x86_64 4.1.1-4.el8                     ol8_baseos_latest  25 k
+ lm_sensors-libs        x86_64 3.4.0-23.20180522git70f7e08.el8 ol8_baseos_latest  59 k
+ make                   x86_64 1:4.2.1-11.el8                  ol8_baseos_latest 498 k
+ sysstat                x86_64 11.7.3-7.0.1.el8                ol8_appstream     426 k
+ xorg-x11-utils         x86_64 7.5-28.el8                      ol8_appstream     136 k
+ xorg-x11-xauth         x86_64 1:1.0.9-12.el8                  ol8_appstream      39 k
+
+Resumen de la transacción
+=======================================================================================
+Instalar  25 Paquetes
+
+Tamaño total: 12 M
+Tamaño total de la descarga: 12 M
+Tamaño instalado: 45 M
+Descargando paquetes:
+(1/24): libaio-devel-0.3.112-1.el8.x86_64.rpm           43 kB/s |  19 kB     00:00    
+(2/24): libnsl-2.28-151.0.1.el8.x86_64.rpm             934 kB/s | 102 kB     00:00    
+(3/24): libxcrypt-devel-4.1.1-4.el8.x86_64.rpm         217 kB/s |  25 kB     00:00    
+(4/24): lm_sensors-libs-3.4.0-23.20180522git70f7e08.el 954 kB/s |  59 kB     00:00    
+(5/24): glibc-devel-2.28-151.0.1.el8.x86_64.rpm        1.1 MB/s | 1.0 MB     00:00    
+(6/24): make-4.2.1-11.el8.x86_64.rpm                   942 kB/s | 498 kB     00:00    
+(7/24): ksh-20120801-257.0.1.el8.x86_64.rpm            2.6 MB/s | 929 kB     00:00    
+(8/24): libSM-1.2.3-1.el8.x86_64.rpm                   916 kB/s |  47 kB     00:00    
+(9/24): libICE-1.0.9-15.el8.x86_64.rpm                 674 kB/s |  74 kB     00:00    
+(10/24): libXcomposite-0.4.4-14.el8.x86_64.rpm         428 kB/s |  28 kB     00:00    
+(11/24): libXi-1.7.10-1.el8.x86_64.rpm                 698 kB/s |  49 kB     00:00    
+(12/24): libXinerama-1.1.4-1.el8.x86_64.rpm            349 kB/s |  15 kB     00:00    
+(13/24): libXrandr-1.5.2-1.el8.x86_64.rpm              638 kB/s |  34 kB     00:00    
+(14/24): libXmu-1.1.3-1.el8.x86_64.rpm                 812 kB/s |  75 kB     00:00    
+(15/24): libXtst-1.2.3-7.el8.x86_64.rpm                428 kB/s |  22 kB     00:00    
+(16/24): libXt-1.1.5-12.el8.x86_64.rpm                 1.6 MB/s | 185 kB     00:00    
+(17/24): libXxf86dga-1.1.5-1.el8.x86_64.rpm            391 kB/s |  26 kB     00:00    
+(18/24): libXxf86misc-1.0.4-1.el8.x86_64.rpm           384 kB/s |  23 kB     00:00    
+(19/24): libdmx-1.1.4-3.el8.x86_64.rpm                 460 kB/s |  22 kB     00:00    
+(20/24): sysstat-11.7.3-7.0.1.el8.x86_64.rpm           1.4 MB/s | 426 kB     00:00    
+(21/24): xorg-x11-utils-7.5-28.el8.x86_64.rpm          962 kB/s | 136 kB     00:00    
+(22/24): xorg-x11-xauth-1.0.9-12.el8.x86_64.rpm        332 kB/s |  39 kB     00:00    
+(23/24): libstdc++-devel-8.4.1-1.0.1.el8.x86_64.rpm    3.3 MB/s | 2.1 MB     00:00    
+(24/24): binutils-2.30-117.0.3.el8.x86_64.rpm          1.9 MB/s | 5.9 MB     00:03    
+---------------------------------------------------------------------------------------
+Total                                                  3.7 MB/s |  12 MB     00:03     
+advertencia:/var/cache/dnf/ol8_baseos_latest-e4c6155830ad002c/packages/binutils-2.30-117.0.3.el8.x86_64.rpm: EncabezadoV3 RSA/SHA256 Signature, ID de clave ad986da3: NOKEY
+Oracle Linux 8 BaseOS Latest (x86_64)                  3.0 MB/s | 3.1 kB     00:00    
+Importando llave GPG 0xAD986DA3:
+ ID usuario: "Oracle OSS group (Open Source Software group) <build@oss.oracle.com>"
+ Huella    : 76FD 3DB1 3AB6 7410 B89D B10E 8256 2EA9 AD98 6DA3
+ Desde     : /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+La llave ha sido importada exitosamente
+Ejecutando verificación de operación
+Verificación de operación exitosa.
+Ejecutando prueba de operaciones
+Prueba de operación exitosa.
+Ejecutando operación
+  Preparando          :                                                            1/1 
+  Instalando          : libxcrypt-devel-4.1.1-4.el8.x86_64                        1/25 
+  Instalando          : glibc-devel-2.28-151.0.1.el8.x86_64                       2/25 
+  Ejecutando scriptlet: glibc-devel-2.28-151.0.1.el8.x86_64                       2/25 
+  Instalando          : libXi-1.7.10-1.el8.x86_64                                 3/25 
+  Instalando          : libICE-1.0.9-15.el8.x86_64                                4/25 
+  Instalando          : libSM-1.2.3-1.el8.x86_64                                  5/25 
+  Instalando          : libXt-1.1.5-12.el8.x86_64                                 6/25 
+  Instalando          : libXmu-1.1.3-1.el8.x86_64                                 7/25 
+  Instalando          : xorg-x11-xauth-1:1.0.9-12.el8.x86_64                      8/25 
+  Instalando          : libXtst-1.2.3-7.el8.x86_64                                9/25 
+  Instalando          : libstdc++-devel-8.4.1-1.0.1.el8.x86_64                   10/25 
+  Instalando          : libdmx-1.1.4-3.el8.x86_64                                11/25 
+  Instalando          : libXxf86misc-1.0.4-1.el8.x86_64                          12/25 
+  Instalando          : libXxf86dga-1.1.5-1.el8.x86_64                           13/25 
+  Instalando          : libXrandr-1.5.2-1.el8.x86_64                             14/25 
+  Instalando          : libXinerama-1.1.4-1.el8.x86_64                           15/25 
+  Instalando          : libXcomposite-0.4.4-14.el8.x86_64                        16/25 
+  Instalando          : xorg-x11-utils-7.5-28.el8.x86_64                         17/25 
+  Instalando          : ksh-20120801-257.0.1.el8.x86_64                          18/25 
+  Ejecutando scriptlet: ksh-20120801-257.0.1.el8.x86_64                          18/25 
+  Instalando          : make-1:4.2.1-11.el8.x86_64                               19/25 
+  Ejecutando scriptlet: make-1:4.2.1-11.el8.x86_64                               19/25 
+  Instalando          : lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64   20/25 
+  Ejecutando scriptlet: lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64   20/25 
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Instalando          : sysstat-11.7.3-7.0.1.el8.x86_64                          21/25 
+  Ejecutando scriptlet: sysstat-11.7.3-7.0.1.el8.x86_64                          21/25 
+  Instalando          : libnsl-2.28-151.0.1.el8.x86_64                           22/25 
+  Instalando          : libaio-devel-0.3.112-1.el8.x86_64                        23/25 
+  Instalando          : binutils-2.30-117.0.3.el8.x86_64                         24/25 
+  Ejecutando scriptlet: binutils-2.30-117.0.3.el8.x86_64                         24/25 
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Ejecutando scriptlet: oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+  Instalando          : oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+  Ejecutando scriptlet: oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Verificando         : binutils-2.30-117.0.3.el8.x86_64                          1/25 
+  Verificando         : glibc-devel-2.28-151.0.1.el8.x86_64                       2/25 
+  Verificando         : libaio-devel-0.3.112-1.el8.x86_64                         3/25 
+  Verificando         : libnsl-2.28-151.0.1.el8.x86_64                            4/25 
+  Verificando         : libxcrypt-devel-4.1.1-4.el8.x86_64                        5/25 
+  Verificando         : lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64    6/25 
+  Verificando         : make-1:4.2.1-11.el8.x86_64                                7/25 
+  Verificando         : ksh-20120801-257.0.1.el8.x86_64                           8/25 
+  Verificando         : libICE-1.0.9-15.el8.x86_64                                9/25 
+  Verificando         : libSM-1.2.3-1.el8.x86_64                                 10/25 
+  Verificando         : libXcomposite-0.4.4-14.el8.x86_64                        11/25 
+  Verificando         : libXi-1.7.10-1.el8.x86_64                                12/25 
+  Verificando         : libXinerama-1.1.4-1.el8.x86_64                           13/25 
+  Verificando         : libXmu-1.1.3-1.el8.x86_64                                14/25 
+  Verificando         : libXrandr-1.5.2-1.el8.x86_64                             15/25 
+  Verificando         : libXt-1.1.5-12.el8.x86_64                                16/25 
+  Verificando         : libXtst-1.2.3-7.el8.x86_64                               17/25 
+  Verificando         : libXxf86dga-1.1.5-1.el8.x86_64                           18/25 
+  Verificando         : libXxf86misc-1.0.4-1.el8.x86_64                          19/25 
+  Verificando         : libdmx-1.1.4-3.el8.x86_64                                20/25 
+  Verificando         : libstdc++-devel-8.4.1-1.0.1.el8.x86_64                   21/25 
+  Verificando         : sysstat-11.7.3-7.0.1.el8.x86_64                          22/25 
+  Verificando         : xorg-x11-utils-7.5-28.el8.x86_64                         23/25 
+  Verificando         : xorg-x11-xauth-1:1.0.9-12.el8.x86_64                     24/25 
+  Verificando         : oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+
+Instalado:
+  binutils-2.30-117.0.3.el8.x86_64                                                     
+  glibc-devel-2.28-151.0.1.el8.x86_64                                                  
+  ksh-20120801-257.0.1.el8.x86_64                                                      
+  libICE-1.0.9-15.el8.x86_64                                                           
+  libSM-1.2.3-1.el8.x86_64                                                             
+  libXcomposite-0.4.4-14.el8.x86_64                                                    
+  libXi-1.7.10-1.el8.x86_64                                                            
+  libXinerama-1.1.4-1.el8.x86_64                                                       
+  libXmu-1.1.3-1.el8.x86_64                                                            
+  libXrandr-1.5.2-1.el8.x86_64                                                         
+  libXt-1.1.5-12.el8.x86_64                                                            
+  libXtst-1.2.3-7.el8.x86_64                                                           
+  libXxf86dga-1.1.5-1.el8.x86_64                                                       
+  libXxf86misc-1.0.4-1.el8.x86_64                                                      
+  libaio-devel-0.3.112-1.el8.x86_64                                                    
+  libdmx-1.1.4-3.el8.x86_64                                                            
+  libnsl-2.28-151.0.1.el8.x86_64                                                       
+  libstdc++-devel-8.4.1-1.0.1.el8.x86_64                                               
+  libxcrypt-devel-4.1.1-4.el8.x86_64                                                   
+  lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64                               
+  make-1:4.2.1-11.el8.x86_64                                                           
+  oracle-database-preinstall-19c-1.0-1.el8.x86_64                                      
+  sysstat-11.7.3-7.0.1.el8.x86_64                                                      
+  xorg-x11-utils-7.5-28.el8.x86_64                                                     
+  xorg-x11-xauth-1:1.0.9-12.el8.x86_64                                                 
+
+¡Listo!
+advertencia:oracle-database-ee-19c-1.0-1.x86_64.rpm: EncabezadoV3 RSA/SHA256 Signature, ID de clave ec551f03: NOKEY
+Verifying...                          ################################# [100%]
+Preparando...                         ################################# [100%]
+Actualizando / instalando...
+   1:oracle-database-ee-19c-1.0-1     ################################# [100%]
+[INFO] Executing post installation scripts...
+[INFO] Oracle home installed successfully and ready to be configured.
+To configure a sample Oracle Database you can execute the following service configuration script as root: /etc/init.d/oracledb_ORCLCDB-19c configure
+Configuring Oracle Database ORCLCDB.
+Preparar para funcionamiento de base de datos
+8% finalizado
+Copiando archivos de base de datos
+31% finalizado
+Creando e iniciando instancia Oracle
+32% finalizado
+36% finalizado
+
+   
+
+40% finalizado
+43% finalizado
+
+46% finalizado
+Terminando creación de base de datos
+
+51% finalizado
+54% finalizado
+Creando Bases de Datos de Conexión
+58% finalizado
+77% finalizado
+Ejecutando acciones posteriores a la configuración
+100% finalizado
+Creación de la base de datos terminada. Consulte los archivos log de /opt/oracle/cfgtoollogs/dbca/ORCLCDB
+ para obtener más información.
+Información de Base de Datos:
+Nombre de la Base de Datos Global:ORCLCDB
+Identificador del Sistema (SID):ORCLCDB
+Para obtener información detallada, consulte el archivo log "/opt/oracle/cfgtoollogs/dbca/ORCLCDB/ORCLCDB.log".
+
+Database configuration completed successfully. The passwords were auto generated, you must change them by connecting to the database using 'sqlplus / as sysdba' as the oracle user.
+/usr/bin/sed
+#
+
+
+
+# This file is used by ORACLE utilities.  It is created by root.sh
+# and updated by either Database Configuration Assistant while creating
+# a database or ASM Configuration Assistant while creating ASM instance.
+
+# A colon, ':', is used as the field terminator.  A new line terminates
+# the entry.  Lines beginning with a pound sign, '#', are comments.
+#
+# Entries are of the form:
+#   $ORACLE_SID:$ORACLE_HOME:<N|Y>:
+#
+# The first and second fields are the system identifier and home
+# directory of the database respectively.  The third field indicates
+# to the dbstart utility that the database should , "Y", or should not,
+# "N", be brought up at system boot time.
+#
+# Multiple entries with the same $ORACLE_SID are not allowed.
+#
+#
+ORCLCDB:/opt/oracle/product/19c/dbhome_1:Y
+Created symlink /etc/systemd/system/multi-user.target.wants/ORCLCDB@oracledb.service → /usr/lib/systemd/system/ORCLCDB@oracledb.service.
+/opt/oracle/product/19c/dbhome_1/bin/oracle
+/opt/oracle/product/19c/dbhome_1/bin/sqlplus
+
+SQL*Plus: Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+Reporte.txt                                          100%   53    39.9KB/s   00:00    
+Connection to 192.168.56.22 closed.
+
+Conectado a nodo con IP 192.168.56.23...
+
+Ejecutable.sh                                        100% 6638     4.2MB/s   00:00    
+Version.txt                                          100%    2     0.1KB/s   00:00    
+IPMaster.txt                                         100%   13     1.0KB/s   00:00    
+Nodo.txt                                             100%   14    14.2KB/s   00:00    
+oracle-database-ee-19c-1.0-1.x86_64.rpm              100% 2570MB   2.8MB/s   15:19    
+
+El OS es fedora
+
+/usr/bin/rpm
+
+Existe rpm
+
+/usr/bin/dnf
+
+Existe dnf
+
+
+Instalando Oracle Database 19c...
+
+Última comprobación de caducidad de metadatos hecha hace 1:07:10, el dom 08 ene 2023 02:14:41 -05.
+oracle-database-preinstall-19c-1.0-1.el8.x86_64.rpm     47 kB/s |  24 kB     00:00    
+Dependencias resueltas.
+=======================================================================================
+ Paquete                Arq.   Versión                         Repositorio        Tam.
+=======================================================================================
+Instalando:
+ oracle-database-preinstall-19c
+                        x86_64 1.0-1.el8                       @commandline       24 k
+Instalando dependencias:
+ binutils               x86_64 2.30-117.0.3.el8                ol8_baseos_latest 5.9 M
+ glibc-devel            x86_64 2.28-151.0.1.el8                ol8_baseos_latest 1.0 M
+ ksh                    x86_64 20120801-257.0.1.el8            ol8_appstream     929 k
+ libICE                 x86_64 1.0.9-15.el8                    ol8_appstream      74 k
+ libSM                  x86_64 1.2.3-1.el8                     ol8_appstream      47 k
+ libXcomposite          x86_64 0.4.4-14.el8                    ol8_appstream      28 k
+ libXi                  x86_64 1.7.10-1.el8                    ol8_appstream      49 k
+ libXinerama            x86_64 1.1.4-1.el8                     ol8_appstream      15 k
+ libXmu                 x86_64 1.1.3-1.el8                     ol8_appstream      75 k
+ libXrandr              x86_64 1.5.2-1.el8                     ol8_appstream      34 k
+ libXt                  x86_64 1.1.5-12.el8                    ol8_appstream     185 k
+ libXtst                x86_64 1.2.3-7.el8                     ol8_appstream      22 k
+ libXxf86dga            x86_64 1.1.5-1.el8                     ol8_appstream      26 k
+ libXxf86misc           x86_64 1.0.4-1.el8                     ol8_appstream      23 k
+ libaio-devel           x86_64 0.3.112-1.el8                   ol8_baseos_latest  19 k
+ libdmx                 x86_64 1.1.4-3.el8                     ol8_appstream      22 k
+ libnsl                 x86_64 2.28-151.0.1.el8                ol8_baseos_latest 102 k
+ libstdc++-devel        x86_64 8.4.1-1.0.1.el8                 ol8_appstream     2.1 M
+ libxcrypt-devel        x86_64 4.1.1-4.el8                     ol8_baseos_latest  25 k
+ lm_sensors-libs        x86_64 3.4.0-23.20180522git70f7e08.el8 ol8_baseos_latest  59 k
+ make                   x86_64 1:4.2.1-11.el8                  ol8_baseos_latest 498 k
+ sysstat                x86_64 11.7.3-7.0.1.el8                ol8_appstream     426 k
+ xorg-x11-utils         x86_64 7.5-28.el8                      ol8_appstream     136 k
+ xorg-x11-xauth         x86_64 1:1.0.9-12.el8                  ol8_appstream      39 k
+
+Resumen de la transacción
+=======================================================================================
+Instalar  25 Paquetes
+
+Tamaño total: 12 M
+Tamaño total de la descarga: 12 M
+Tamaño instalado: 45 M
+Descargando paquetes:
+(1/24): libaio-devel-0.3.112-1.el8.x86_64.rpm           41 kB/s |  19 kB     00:00    
+(2/24): libnsl-2.28-151.0.1.el8.x86_64.rpm             433 kB/s | 102 kB     00:00    
+(3/24): libxcrypt-devel-4.1.1-4.el8.x86_64.rpm         178 kB/s |  25 kB     00:00    
+(4/24): lm_sensors-libs-3.4.0-23.20180522git70f7e08.el 507 kB/s |  59 kB     00:00    
+(5/24): make-4.2.1-11.el8.x86_64.rpm                   1.2 MB/s | 498 kB     00:00    
+(6/24): glibc-devel-2.28-151.0.1.el8.x86_64.rpm        745 kB/s | 1.0 MB     00:01    
+(7/24): libICE-1.0.9-15.el8.x86_64.rpm                 508 kB/s |  74 kB     00:00    
+(8/24): libSM-1.2.3-1.el8.x86_64.rpm                   416 kB/s |  47 kB     00:00    
+(9/24): libXcomposite-0.4.4-14.el8.x86_64.rpm          385 kB/s |  28 kB     00:00    
+(10/24): ksh-20120801-257.0.1.el8.x86_64.rpm           2.3 MB/s | 929 kB     00:00    
+(11/24): libXi-1.7.10-1.el8.x86_64.rpm                 653 kB/s |  49 kB     00:00    
+(12/24): libXinerama-1.1.4-1.el8.x86_64.rpm            307 kB/s |  15 kB     00:00    
+(13/24): libXrandr-1.5.2-1.el8.x86_64.rpm              608 kB/s |  34 kB     00:00    
+(14/24): libXmu-1.1.3-1.el8.x86_64.rpm                 909 kB/s |  75 kB     00:00    
+(15/24): libXtst-1.2.3-7.el8.x86_64.rpm                356 kB/s |  22 kB     00:00    
+(16/24): libXt-1.1.5-12.el8.x86_64.rpm                 1.5 MB/s | 185 kB     00:00    
+(17/24): libXxf86dga-1.1.5-1.el8.x86_64.rpm            434 kB/s |  26 kB     00:00    
+(18/24): libXxf86misc-1.0.4-1.el8.x86_64.rpm           327 kB/s |  23 kB     00:00    
+(19/24): libdmx-1.1.4-3.el8.x86_64.rpm                 415 kB/s |  22 kB     00:00    
+(20/24): sysstat-11.7.3-7.0.1.el8.x86_64.rpm           917 kB/s | 426 kB     00:00    
+(21/24): xorg-x11-utils-7.5-28.el8.x86_64.rpm          671 kB/s | 136 kB     00:00    
+(22/24): xorg-x11-xauth-1.0.9-12.el8.x86_64.rpm        273 kB/s |  39 kB     00:00    
+(23/24): libstdc++-devel-8.4.1-1.0.1.el8.x86_64.rpm    2.1 MB/s | 2.1 MB     00:01    
+(24/24): binutils-2.30-117.0.3.el8.x86_64.rpm          1.8 MB/s | 5.9 MB     00:03    
+---------------------------------------------------------------------------------------
+Total                                                  3.5 MB/s |  12 MB     00:03     
+advertencia:/var/cache/dnf/ol8_baseos_latest-e4c6155830ad002c/packages/binutils-2.30-117.0.3.el8.x86_64.rpm: EncabezadoV3 RSA/SHA256 Signature, ID de clave ad986da3: NOKEY
+Oracle Linux 8 BaseOS Latest (x86_64)                   70 kB/s | 3.1 kB     00:00    
+Importando llave GPG 0xAD986DA3:
+ ID usuario: "Oracle OSS group (Open Source Software group) <build@oss.oracle.com>"
+ Huella    : 76FD 3DB1 3AB6 7410 B89D B10E 8256 2EA9 AD98 6DA3
+ Desde     : /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+La llave ha sido importada exitosamente
+Ejecutando verificación de operación
+Verificación de operación exitosa.
+Ejecutando prueba de operaciones
+Prueba de operación exitosa.
+Ejecutando operación
+  Preparando          :                                                            1/1 
+  Instalando          : libxcrypt-devel-4.1.1-4.el8.x86_64                        1/25 
+  Instalando          : glibc-devel-2.28-151.0.1.el8.x86_64                       2/25 
+  Ejecutando scriptlet: glibc-devel-2.28-151.0.1.el8.x86_64                       2/25 
+  Instalando          : libXi-1.7.10-1.el8.x86_64                                 3/25 
+  Instalando          : libICE-1.0.9-15.el8.x86_64                                4/25 
+  Instalando          : libSM-1.2.3-1.el8.x86_64                                  5/25 
+  Instalando          : libXt-1.1.5-12.el8.x86_64                                 6/25 
+  Instalando          : libXmu-1.1.3-1.el8.x86_64                                 7/25 
+  Instalando          : xorg-x11-xauth-1:1.0.9-12.el8.x86_64                      8/25 
+  Instalando          : libXtst-1.2.3-7.el8.x86_64                                9/25 
+  Instalando          : libstdc++-devel-8.4.1-1.0.1.el8.x86_64                   10/25 
+  Instalando          : libdmx-1.1.4-3.el8.x86_64                                11/25 
+  Instalando          : libXxf86misc-1.0.4-1.el8.x86_64                          12/25 
+  Instalando          : libXxf86dga-1.1.5-1.el8.x86_64                           13/25 
+  Instalando          : libXrandr-1.5.2-1.el8.x86_64                             14/25 
+  Instalando          : libXinerama-1.1.4-1.el8.x86_64                           15/25 
+  Instalando          : libXcomposite-0.4.4-14.el8.x86_64                        16/25 
+  Instalando          : xorg-x11-utils-7.5-28.el8.x86_64                         17/25 
+  Instalando          : ksh-20120801-257.0.1.el8.x86_64                          18/25 
+  Ejecutando scriptlet: ksh-20120801-257.0.1.el8.x86_64                          18/25 
+  Instalando          : make-1:4.2.1-11.el8.x86_64                               19/25 
+  Ejecutando scriptlet: make-1:4.2.1-11.el8.x86_64                               19/25 
+  Instalando          : lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64   20/25 
+  Ejecutando scriptlet: lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64   20/25 
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Instalando          : sysstat-11.7.3-7.0.1.el8.x86_64                          21/25 
+  Ejecutando scriptlet: sysstat-11.7.3-7.0.1.el8.x86_64                          21/25 
+  Instalando          : libnsl-2.28-151.0.1.el8.x86_64                           22/25 
+  Instalando          : libaio-devel-0.3.112-1.el8.x86_64                        23/25 
+  Instalando          : binutils-2.30-117.0.3.el8.x86_64                         24/25 
+  Ejecutando scriptlet: binutils-2.30-117.0.3.el8.x86_64                         24/25 
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Ejecutando scriptlet: oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+  Instalando          : oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+  Ejecutando scriptlet: oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+/sbin/ldconfig: /etc/ld.so.conf.d/kernel-5.4.17-2102.201.3.el8uek.x86_64.conf:6: hwcap directive ignored
+
+  Verificando         : binutils-2.30-117.0.3.el8.x86_64                          1/25 
+  Verificando         : glibc-devel-2.28-151.0.1.el8.x86_64                       2/25 
+  Verificando         : libaio-devel-0.3.112-1.el8.x86_64                         3/25 
+  Verificando         : libnsl-2.28-151.0.1.el8.x86_64                            4/25 
+  Verificando         : libxcrypt-devel-4.1.1-4.el8.x86_64                        5/25 
+  Verificando         : lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64    6/25 
+  Verificando         : make-1:4.2.1-11.el8.x86_64                                7/25 
+  Verificando         : ksh-20120801-257.0.1.el8.x86_64                           8/25 
+  Verificando         : libICE-1.0.9-15.el8.x86_64                                9/25 
+  Verificando         : libSM-1.2.3-1.el8.x86_64                                 10/25 
+  Verificando         : libXcomposite-0.4.4-14.el8.x86_64                        11/25 
+  Verificando         : libXi-1.7.10-1.el8.x86_64                                12/25 
+  Verificando         : libXinerama-1.1.4-1.el8.x86_64                           13/25 
+  Verificando         : libXmu-1.1.3-1.el8.x86_64                                14/25 
+  Verificando         : libXrandr-1.5.2-1.el8.x86_64                             15/25 
+  Verificando         : libXt-1.1.5-12.el8.x86_64                                16/25 
+  Verificando         : libXtst-1.2.3-7.el8.x86_64                               17/25 
+  Verificando         : libXxf86dga-1.1.5-1.el8.x86_64                           18/25 
+  Verificando         : libXxf86misc-1.0.4-1.el8.x86_64                          19/25 
+  Verificando         : libdmx-1.1.4-3.el8.x86_64                                20/25 
+  Verificando         : libstdc++-devel-8.4.1-1.0.1.el8.x86_64                   21/25 
+  Verificando         : sysstat-11.7.3-7.0.1.el8.x86_64                          22/25 
+  Verificando         : xorg-x11-utils-7.5-28.el8.x86_64                         23/25 
+  Verificando         : xorg-x11-xauth-1:1.0.9-12.el8.x86_64                     24/25 
+  Verificando         : oracle-database-preinstall-19c-1.0-1.el8.x86_64          25/25 
+
+Instalado:
+  binutils-2.30-117.0.3.el8.x86_64                                                     
+  glibc-devel-2.28-151.0.1.el8.x86_64                                                  
+  ksh-20120801-257.0.1.el8.x86_64                                                      
+  libICE-1.0.9-15.el8.x86_64                                                           
+  libSM-1.2.3-1.el8.x86_64                                                             
+  libXcomposite-0.4.4-14.el8.x86_64                                                    
+  libXi-1.7.10-1.el8.x86_64                                                            
+  libXinerama-1.1.4-1.el8.x86_64                                                       
+  libXmu-1.1.3-1.el8.x86_64                                                            
+  libXrandr-1.5.2-1.el8.x86_64                                                         
+  libXt-1.1.5-12.el8.x86_64                                                            
+  libXtst-1.2.3-7.el8.x86_64                                                           
+  libXxf86dga-1.1.5-1.el8.x86_64                                                       
+  libXxf86misc-1.0.4-1.el8.x86_64                                                      
+  libaio-devel-0.3.112-1.el8.x86_64                                                    
+  libdmx-1.1.4-3.el8.x86_64                                                            
+  libnsl-2.28-151.0.1.el8.x86_64                                                       
+  libstdc++-devel-8.4.1-1.0.1.el8.x86_64                                               
+  libxcrypt-devel-4.1.1-4.el8.x86_64                                                   
+  lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64                               
+  make-1:4.2.1-11.el8.x86_64                                                           
+  oracle-database-preinstall-19c-1.0-1.el8.x86_64                                      
+  sysstat-11.7.3-7.0.1.el8.x86_64                                                      
+  xorg-x11-utils-7.5-28.el8.x86_64                                                     
+  xorg-x11-xauth-1:1.0.9-12.el8.x86_64                                                 
+
+¡Listo!
+advertencia:oracle-database-ee-19c-1.0-1.x86_64.rpm: EncabezadoV3 RSA/SHA256 Signature, ID de clave ec551f03: NOKEY
+Verifying...                          ################################# [100%]
+Preparando...                         ################################# [100%]
+Actualizando / instalando...
+   1:oracle-database-ee-19c-1.0-1     ################################# [100%]
+[INFO] Executing post installation scripts...
+[INFO] Oracle home installed successfully and ready to be configured.
+To configure a sample Oracle Database you can execute the following service configuration script as root: /etc/init.d/oracledb_ORCLCDB-19c configure
+Configuring Oracle Database ORCLCDB.
+Preparar para funcionamiento de base de datos
+8% finalizado
+Copiando archivos de base de datos
+31% finalizado
+Creando e iniciando instancia Oracle
+32% finalizado
+36% finalizado
+40% finalizado
+43% finalizado
+46% finalizado
+Terminando creación de base de datos
+51% finalizado
+54% finalizado
+Creando Bases de Datos de Conexión
+58% finalizado
+77% finalizado
+Ejecutando acciones posteriores a la configuración
+100% finalizado
+Creación de la base de datos terminada. Consulte los archivos log de /opt/oracle/cfgtoollogs/dbca/ORCLCDB
+ para obtener más información.
+Información de Base de Datos:
+Nombre de la Base de Datos Global:ORCLCDB
+Identificador del Sistema (SID):ORCLCDB
+Para obtener información detallada, consulte el archivo log "/opt/oracle/cfgtoollogs/dbca/ORCLCDB/ORCLCDB.log".
+
+Database configuration completed successfully. The passwords were auto generated, you must change them by connecting to the database using 'sqlplus / as sysdba' as the oracle user.
+/usr/bin/sed
+#
+
+
+
+# This file is used by ORACLE utilities.  It is created by root.sh
+# and updated by either Database Configuration Assistant while creating
+# a database or ASM Configuration Assistant while creating ASM instance.
+
+# A colon, ':', is used as the field terminator.  A new line terminates
+# the entry.  Lines beginning with a pound sign, '#', are comments.
+#
+# Entries are of the form:
+#   $ORACLE_SID:$ORACLE_HOME:<N|Y>:
+#
+# The first and second fields are the system identifier and home
+# directory of the database respectively.  The third field indicates
+# to the dbstart utility that the database should , "Y", or should not,
+# "N", be brought up at system boot time.
+#
+# Multiple entries with the same $ORACLE_SID are not allowed.
+#
+#
+ORCLCDB:/opt/oracle/product/19c/dbhome_1:Y
+Created symlink /etc/systemd/system/multi-user.target.wants/ORCLCDB@oracledb.service → /usr/lib/systemd/system/ORCLCDB@oracledb.service.
+/opt/oracle/product/19c/dbhome_1/bin/oracle
+/opt/oracle/product/19c/dbhome_1/bin/sqlplus
+
+SQL*Plus: Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+Reporte.txt                                          100%   53    43.1KB/s   00:00    
+Connection to 192.168.56.23 closed.
+
+Acorde a las IPs correspondientes a los nodos para realizar el proceso, se tiene el sigueinte reporte:
+
+|     IP     |  Resultado  |
+192.168.56.22 - OK
+192.168.56.23 - OK
+
+Deteniendo ejecución del proceso...
+
+[root@localhost Instalador]# ls
+IPs.txt                                  oracle-database-ee-21c-1.0-1.ol8.x86_64.rpm
+oracle-database-ee-19c-1.0-1.x86_64.rpm  Script.sh
+[root@localhost Instalador]# 
+
