@@ -1,4 +1,4 @@
-# Atomatizacion-para-instalacion-en-cluster-del-gestor-oracle-database-en-distribuciones-OS-de-Linux
+# Automatizacion-para-instalacion-en-cluster-del-gestor-oracle-database-en-distribuciones-OS-de-Linux
 Proyecto de grado - Atomatización para instalación en cluster del gestor oracle database en distribuciones del OS de Linux.
 
 
